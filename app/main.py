@@ -1,4 +1,4 @@
-class BaseRobot:
+class DeliveryDrone:
     def __init__(self, name: str, weight: int,  coords=None) -> None:
         self.name = name
         self.weight = weight
